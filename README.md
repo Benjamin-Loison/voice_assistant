@@ -18,7 +18,7 @@ while True:
     assistant.speak('What do you need?')
     assistant.listen()
 
-    if assistant.has_heard(['hello', 'hey', 'hi', good morning']):
+    if assistant.has_heard(['hello', 'hey', 'hi', 'good morning']):
         assistant.speak("Hello!, I'm ready for what you need.")
 ```
 
